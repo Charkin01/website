@@ -2,7 +2,7 @@
 :root {
     --background-color: white; 
     --text-color: black; 
-    --coloured-text: url('../media/background-abstract.png');
+    --coloured-text: url('../media/background-abstract.webp');
 }
 
 body {
@@ -345,7 +345,7 @@ html {
     flex-wrap: wrap;
     max-width: 1200px;
     padding: 30px;
-    background-image: url(../media/bg.png);
+    background-image: url(../media/bg.webp);
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
@@ -437,7 +437,7 @@ html {
 
 /* Colored text effect with background image for "Do" and "n't" */
 .coloured-text-5 {
-    background-image: url('../media/background-abstract.png'); 
+    background-image: url('../media/background-abstract.webp'); 
     background-size: cover;
     background-position: center;
     -webkit-background-clip: text;
@@ -565,7 +565,7 @@ html {
 }
 
 .col-7-1 {
-    background: url(../media/pc1.png);
+    background: url(../media/pc1.webp);
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
@@ -663,7 +663,7 @@ html {
     justify-content: space-between;
     gap: 20px;
     max-width: 1200px;
-    background: url('../media/bg2.png') no-repeat center center;
+    background: url('../media/bg2.webp') no-repeat center center;
     background-size: cover;
 }
 
@@ -880,7 +880,7 @@ footer{
         padding: 20px; 
         width: 100%;
         height: 80vh;
-        background: url(../media/pc1.png);
+        background: url(../media/pc1.webp);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -926,7 +926,7 @@ footer{
         flex: 0 0 100%; 
         display: block; 
         height: 80vh;
-        background: url(../media/pc1.png);
+        background: url(../media/pc1.webp);
         background-size: cover;
         background-position: center;
     }
@@ -1186,7 +1186,7 @@ footer{
 
     .col-7-2 {
         height: 350px;
-        background: url(../media/pc2.png);
+        background: url(../media/pc2.webp);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -1401,7 +1401,7 @@ footer{
 
     .col-7-2 {
         height: 320px;
-        background: url(../media/pc3.png);
+        background: url(../media/pc3.webp);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
