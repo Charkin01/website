@@ -326,6 +326,7 @@ html {
 /* Make the image responsive */
 .man {
     max-width: 100%;
+    max-height: 70vh;
 }
 
 
@@ -732,12 +733,12 @@ footer{
         font-size: 70px;
     }
 
-    .primary-menu-container{
-        padding: 0px 20px 0px 0px;
+    .primary-menu{
+        padding: 5px 30px 5px 10px;
     }
 
     .secondary-menu{
-        margin: 0px 20px 0px 0px;
+        margin: 0px 30px 0px 0px;
     }
 
     .col-7-1{
@@ -815,7 +816,7 @@ footer{
     }
 
     .man {
-        max-width: 390px;
+        max-width: 360px;
         width: 100%;
     }
 }
@@ -1069,6 +1070,11 @@ footer{
 @media (max-width: 620px) {
     .primary-menu-container{
         display:block;
+        padding: 5px 20px 5px 10px;
+    }
+
+    .secondary-menu{
+        margin: 0px 10px 0px 0px;
     }
 
     #home{
