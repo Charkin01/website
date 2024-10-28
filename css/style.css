@@ -816,7 +816,7 @@ footer{
     }
 
     .man {
-        max-width: 360px;
+        max-width: 370px;
         width: 100%;
     }
 }
@@ -1298,6 +1298,7 @@ footer{
     #about{
         padding: 0px 10px 60px 10px;
     }
+}
 
 @media (max-width: 440px) {
     .row-3{
@@ -1435,12 +1436,4 @@ footer{
     .project-logo{
         margin: 0px 0px 0px 8px;
     }
-}
-
-
-
-/* Height Optimisation */
-
-@media (max-height: 800px) and (max-width: 800px) {
-
 }
