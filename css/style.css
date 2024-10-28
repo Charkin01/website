@@ -574,7 +574,7 @@ html {
 }
 
 .coding {
-    padding: 80px 0px 50px 90px;
+    padding: 85px 0px 50px 105px;
     max-width: 400px;
 }
 
@@ -909,7 +909,7 @@ footer{
     }
 
     .coding{
-        padding: 40px 25px 50px 145px;
+        padding: 50px 25px 50px 145px;
         min-width: 65%;
     }
 
@@ -970,7 +970,7 @@ footer{
     }
 
     .coding{
-        padding: 75px 0px 50px 120px;
+        padding: 85px 0px 50px 120px;
         min-width: 65%;
     }
 
@@ -1060,7 +1060,7 @@ footer{
 
 @media (max-width: 730px) {
     .coding{
-        padding: 85px 60px 50px 110px;
+        padding: 110px 60px 50px 110px;
         max-width: 53%;
     }
 
@@ -1107,7 +1107,7 @@ footer{
     }
 
     .coding{
-        padding: 100px 50px 50px 80px;
+        padding: 110px 50px 50px 80px;
         min-width: 70%;
     }
 
@@ -1205,7 +1205,7 @@ footer{
     }
 
     #design{
-        padding: 0px 30px 43px 30px;
+        padding: 0px 30px 35px 30px;
     }
 
     #skills{
@@ -1241,7 +1241,7 @@ footer{
     }
 
     .coding{
-        padding: 100px 50px 50px 68px;
+        padding: 115px 50px 50px 68px;
         min-width: 75%;
     }
 
@@ -1277,7 +1277,7 @@ footer{
 
 @media (max-width: 520px) {
     .coding{
-        padding: 100px 20px 50px 32px;
+        padding: 120px 20px 50px 32px;
         min-width: 90%;
     }
 
@@ -1287,7 +1287,6 @@ footer{
 
     .footer{
         font-size: 16px;
-        text-align: left;
     }
 }
 
@@ -1311,6 +1310,10 @@ footer{
 
     .row-1 { 
         padding: 69px 0vh 0vh 0vh;
+    }
+
+    .description{
+        font-size: 18px;
     }
 }
 
@@ -1349,7 +1352,7 @@ footer{
     }
 
     .coding{
-        padding: 100px 0px 50px 0px;
+        padding: 120px 0px 50px 0px;
         max-width: 100%;
     }
     .col-4-2{
@@ -1363,9 +1366,14 @@ footer{
 }
 
 @media (max-width: 428px) {
-    section, #home, #portfolio, #design, #skills, #education, #about, #contacts {
+    section, #home, #design, #skills, #education, #about, #contacts {
         padding-right: 10px;
         padding-left: 10px;
+    }
+
+    #portfolio{
+        padding-right: 0px;
+        padding-left: 0px;
     }
 
     .row-3{
@@ -1394,12 +1402,13 @@ footer{
         max-width: 100%;
     }
 
-    .coding{
-        padding: 105px 0px 50px 0px;
+    .col-3{
+        margin: 0px 0px -13px 0px;
+        min-width: 100%;
     }
 
-    .word, .nt-word, .do-word{
-        font-size: 4rem;
+    .footer{
+        font-size: 14px;
     }
 }
 
@@ -1420,19 +1429,28 @@ footer{
         font-size: 16.3px;
         margin-bottom: 20px;
     }
+
+    .word, .nt-word, .do-word{
+        font-size: 4rem;
+    }
 }
 
 @media (max-width: 360px) {
     .row-3{
-        padding: 4px;
+        padding: 10px 10px 25px 10px;
+    }
+
+    .col-3{
+        padding: 0px 8px;
+        margin: 0px 0px -15px 0px;
     }
 
     .title{
-        font-size: 38px;
+        font-size: 40px;
     }
 
     .colored-text-1 {
-        font-size: 21px; 
+        font-size: 22.5px; 
         margin: 8px 0px 12px -1px;
     }
 }
@@ -1443,7 +1461,7 @@ footer{
     }
 
     .coding{
-        padding: 105px 0px 50px 0px;
+        padding: 120px 0px 50px 0px;
     }
 
     .coding-title {
@@ -1457,5 +1475,24 @@ footer{
 
     .word, .nt-word, .do-word{
         font-size: 3.7rem;
+    }
+
+    .title{
+        font-size: 38px;
+    }
+
+    .colored-text-1 {
+        font-size: 21px; 
+        margin: 8px 0px 12px -1px;
+    }
+
+    .project-logo{
+        margin: 0px 0px 0px 15px;
+    }
+}
+
+@media (max-width: 330px) {
+    .project-logo{
+        margin: 0px 0px 0px 8px;
     }
 }
