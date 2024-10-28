@@ -312,7 +312,7 @@ html {
 }
 
 .row-1 { 
-    padding: 61px 0vh 0vh 0vh;
+    padding: 15px 0vh 0vh 0vh;
 }
 
 #home {
@@ -569,30 +569,8 @@ html {
     background-repeat: no-repeat;
     display: flex;
     flex: 0 0 57%;
-    height: 70vh;
-    padding: 40px 20px 40px 20px;
-}
-
-.coding {
-    padding: 85px 0px 50px 105px;
-    max-width: 400px;
-}
-
-.coding-title {
-    font-family: 'Courier New', monospace;
-    font-size: 18px;
-    color: #00FF00;
-}
-
-.coding-text {
-    font-family: 'Courier New', monospace;
-    font-size: 17.3px;
-    color: #00FF00;
-    line-height: 1.3em;
-    display: inline-block;
-    margin-bottom: 25px;
-    white-space: normal;
-    word-wrap: break-word; 
+    height: 750px;
+    padding: 0px 20px 0px 20px;
 }
 
 .col-7-2 {
@@ -768,10 +746,6 @@ footer{
         background-position: center;
     }
 
-    .coding{
-        padding: 80px 70px 50px 82px
-    }
-
     .col-7-2{
         flex: 0 0 39.7%;
     }
@@ -828,10 +802,6 @@ footer{
         padding: 0px 30px 160px 30px;
     }
 
-    .coding{
-        padding: 80px 30px 50px 58px;
-    }
-
     .word, .nt-word, .do-word{
         font-size: 70px;
     }
@@ -842,6 +812,11 @@ footer{
 
     #design{
         padding: 0px 30px 160px 30px;
+    }
+
+    .man {
+        max-width: 390px;
+        width: 100%;
     }
 }
 
@@ -895,6 +870,7 @@ footer{
         background: none;
         display: block; 
         height: auto;
+        padding: 40px 0px;
     }
 
     .col-7-2 {
@@ -906,26 +882,7 @@ footer{
         background: url(../media/pc1.png);
         background-size: cover;
         background-position: center;
-    }
-
-    .coding{
-        padding: 50px 25px 50px 145px;
-        min-width: 65%;
-    }
-
-    .coding-title {
-        font-size: 25px;
-    }
-    
-    .coding-text {
-        font-family: 'Courier New', monospace;
-        font-size: 20px;
-        color: #00FF00;
-        line-height: 1.3em;
-        display: inline-block;
-        margin-bottom: 25px;
-        white-space: normal;
-        word-wrap: break-word;
+        background-repeat: no-repeat;
     }
     
     .mobile-description{
@@ -943,15 +900,19 @@ footer{
     }
 
     #design{
-        padding: 0px 20px 140px 30px;
+        padding: 0px 20px 130px 30px;
     }
 
     #skills{
-        padding: 0px 30px 165px 30px;
+        padding: 0px 35px 165px 35px;
     }
 
     #education{
-        padding: 0px 30px 150px 30px;
+        padding: 0px 30px 140px 30px;
+    }
+
+    #about{
+        padding: 0px 30px 140px 30px;
     }
 
     .word, .nt-word, .do-word{
@@ -968,19 +929,6 @@ footer{
         background-size: cover;
         background-position: center;
     }
-
-    .coding{
-        padding: 85px 0px 50px 120px;
-        min-width: 65%;
-    }
-
-    .coding-title {
-        font-size: 23px;
-    }
-
-    .coding-text {
-        font-size: 18px;
-    }
     
     #home{
         padding: 0px 32px 0px 32px;
@@ -991,15 +939,15 @@ footer{
     }
 
     #education{
-        padding: 0px 35px 150px 35px;
+        padding: 0px 30px 150px 35px;
     }
 
     #skills{
-        padding: 0px 14px 170px 14px;
+        padding: 0px 35px 165px 35px;
     }
 
     #about{
-        padding: 0px 35px 160px 35px;
+        padding: 0px 30px 160px 35px;
     }
 
     .study{
@@ -1025,7 +973,7 @@ footer{
     }
 
     #skills{
-        padding: 0px 14px 180px 14px;
+        padding: 0px 30px 180px 30px;
     }
 
     .title{
@@ -1059,19 +1007,6 @@ footer{
 }
 
 @media (max-width: 730px) {
-    .coding{
-        padding: 110px 60px 50px 110px;
-        max-width: 53%;
-    }
-
-    .coding-title {
-        font-size: 20px;
-    }
-
-    .coding-text {
-        font-size: 16px;
-    }
-
     .me{
         max-width: 300px;
     }
@@ -1081,7 +1016,7 @@ footer{
     }
 
     #skills{
-        padding: 0px 10px 175px 10px;
+        padding: 0px 30px 175px 30px;
     }
 }
 
@@ -1104,11 +1039,6 @@ footer{
 
     .column-content p{
         max-width: 100%;
-    }
-
-    .coding{
-        padding: 110px 50px 50px 80px;
-        min-width: 70%;
     }
 
     .word, .nt-word, .do-word{
@@ -1147,6 +1077,10 @@ footer{
 
     .row-1, .row-4, .row-8, .row-9{
         display: block;
+    }
+
+    .row-1 { 
+        padding: 69px 0vh 0vh 0vh;
     }
 
     .col-1-1, .col-1-2, .col-4-1, .col-4-2, .col-8-1, .col-8-2 {
@@ -1240,13 +1174,24 @@ footer{
         max-width: 100%;
     }
 
-    .coding{
-        padding: 115px 50px 50px 68px;
-        min-width: 75%;
-    }
-
     .word, .nt-word, .do-word{
         font-size: 6rem;
+    }
+
+    .col-7-2 {
+        height: 350px;
+        background: url(../media/pc2.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #education{
+        margin: 20px 0px 20px 0px;
+    }
+
+    #skills{
+        padding: 0px 15px 45px 15px;
     }
 }
 
@@ -1276,11 +1221,6 @@ footer{
 }
 
 @media (max-width: 520px) {
-    .coding{
-        padding: 120px 20px 50px 32px;
-        min-width: 90%;
-    }
-
     .word, .nt-word, .do-word{
         font-size: 5rem;
     }
@@ -1344,17 +1284,20 @@ footer{
         font-size: 24px; 
         margin: 8px 0px 12px -1px;
     }
-}
+
+    #education{
+        margin: 40px 0px 0px 0px;
+    }
+
+    #about{
+        padding: 0px 10px 60px 10px;
+    }
 
 @media (max-width: 440px) {
     .row-3{
         padding: 20px;
     }
 
-    .coding{
-        padding: 120px 0px 50px 0px;
-        max-width: 100%;
-    }
     .col-4-2{
         margin: -30px 0px 0px 0px;
     }
@@ -1410,6 +1353,11 @@ footer{
     .footer{
         font-size: 14px;
     }
+
+    .button{
+        font-size: 0.8rem;
+        letter-spacing: 1px;
+    }
 }
 
 @media (max-width: 380px) {
@@ -1419,15 +1367,6 @@ footer{
 
     #about{
         padding: 0px 10px 100px 10px;
-    }
-
-    .coding-title {
-        font-size: 17px;
-    }
-    
-    .coding-text {
-        font-size: 16.3px;
-        margin-bottom: 20px;
     }
 
     .word, .nt-word, .do-word{
@@ -1453,24 +1392,19 @@ footer{
         font-size: 22.5px; 
         margin: 8px 0px 12px -1px;
     }
+
+    .col-7-2 {
+        height: 320px;
+        background: url(../media/pc3.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 }
 
 @media (max-width: 340px) {
     #about{
         padding: 0px 15px 80px 15px;
-    }
-
-    .coding{
-        padding: 120px 0px 50px 0px;
-    }
-
-    .coding-title {
-        font-size: 16.5px;
-    }
-    
-    .coding-text {
-        font-size: 15.7px;
-        margin-bottom: 20px;
     }
 
     .word, .nt-word, .do-word{
@@ -1495,4 +1429,12 @@ footer{
     .project-logo{
         margin: 0px 0px 0px 8px;
     }
+}
+
+
+
+/* Height Optimisation */
+
+@media (max-height: 800px) and (max-width: 800px) {
+
 }
