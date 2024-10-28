@@ -199,12 +199,12 @@ function updateColors() {
         // Light mode colors
         root.style.setProperty('--background-color', 'white');
         root.style.setProperty('--text-color', 'black');
-        root.style.setProperty('--coloured-text', "url('../media/background-abstract.png')");
+        root.style.setProperty('--coloured-text', "url('../media/background-abstract.webp')");
     } else {
         // Dark mode colors
         root.style.setProperty('--background-color', '#161619');
         root.style.setProperty('--text-color', 'white');
-        root.style.setProperty('--coloured-text', "url('../media/background-abstract-2.png')");
+        root.style.setProperty('--coloured-text', "url('../media/background-abstract-2.webp')");
     }
 }
 
