@@ -180,7 +180,7 @@ html {
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
     display: inline-block; 
-    margin: 5px 0px 15px -2px;
+    margin: 0px 0px 15px -2px;
     padding: 0px;
 }
 
@@ -715,8 +715,12 @@ footer{
 
 /* Responsive Design */
 @media (max-width: 1310px) {
-    section, #design, #skills, #education, #about {
+    section, #design, #skills, #education {
         padding: 0px 30px 180px 30px;
+    }
+
+    #about{
+        padding: 0px 30px 170px 30px;
     }
 
     #contacts, #home{
@@ -729,9 +733,13 @@ footer{
     }
 }
 
-@media (max-width: 1190px) {
+@media (max-width: 1200px) {
     .title{
-        font-size: 70px;
+        font-size: 6.5vw;
+    }
+
+    .colored-text-1 {
+        font-size: 3.7vw;
     }
 
     .primary-menu{
@@ -759,15 +767,11 @@ footer{
     }
     
     .description{
-        max-width: 515px;
-    }
-
-    .colored-text-1 {
-        font-size: 40px; 
+        max-width: 47.5vw;
     }
 
     .word, .nt-word, .do-word{
-        font-size: 80px;
+        font-size: 7.4vw;
     }
 }
 
@@ -780,18 +784,6 @@ footer{
 }
 
 @media (max-width: 1079px) {
-    .title{
-        font-size: 60px;
-    }
-
-    .description{
-        max-width: 440px;
-    }
-
-    .colored-text-1 {
-        font-size: 34px; 
-    }
-
     .study{
         max-width: 500px;
     }
@@ -802,10 +794,6 @@ footer{
 
     #about, #skills{
         padding: 0px 30px 160px 30px;
-    }
-
-    .word, .nt-word, .do-word{
-        font-size: 70px;
     }
 
     #portfolio{
@@ -823,10 +811,6 @@ footer{
 }
 
 @media (max-width: 980px) {
-    .colored-text-1 {
-        font-size: 34px;
-    }
-
     .study{
         max-width: 460px;
     }
@@ -835,19 +819,19 @@ footer{
 
 @media (max-width: 930px) {
     .title{
-        font-size: 50px;
+        font-size: 6vw;
+    }
+
+    .colored-text-1{
+        font-size: 3.4vw;
     }
 
     .description{
-        max-width: 370px;
+        max-width: 43.8vw;
     }
 
     .study{
         max-width: 440px;
-    }
-
-    .colored-text-1 {
-        font-size: 28.3px; 
     }
 
     .wide{
@@ -902,7 +886,7 @@ footer{
     }
 
     #design{
-        padding: 0px 20px 130px 30px;
+        padding: 0px 20px 125px 30px;
     }
 
     #skills{
@@ -914,11 +898,11 @@ footer{
     }
 
     #about{
-        padding: 0px 30px 140px 30px;
+        padding: 0px 30px 130px 30px;
     }
 
     .word, .nt-word, .do-word{
-        font-size: 65px;
+        font-size: 6.8vw;
     }
 }
 
@@ -949,7 +933,7 @@ footer{
     }
 
     #about{
-        padding: 0px 30px 160px 35px;
+        padding: 0px 30px 140px 35px;
     }
 
     .study{
@@ -958,10 +942,6 @@ footer{
 
     .citation{
         padding: 0px 57px 0px 11px;
-    }
-
-    .word, .nt-word, .do-word{
-        font-size: 55px;
     }
 
     .me{
@@ -978,12 +958,7 @@ footer{
         padding: 0px 30px 180px 30px;
     }
 
-    .title{
-        font-size: 42px;
-    }
-
     .colored-text-1 {
-        font-size: 23.5px; 
         margin: 8px 0px 11px -1px;
     }
 
@@ -991,20 +966,8 @@ footer{
         margin: 9px 0px 15px -1px;
     }
 
-    .word, .nt-word, .do-word{
-        font-size: 55px;
-    }
-
     .citation{
         padding: 0px 45px 0px 11px;
-    }
-
-    .description{
-        max-width: 306px;
-    }
-
-    .mobile-description{
-        max-width: 100%;
     }
 }
 
@@ -1027,24 +990,8 @@ footer{
         max-width: 200px;
     }
 
-    .title{
-        font-size: 42px;
-    }
-
-    .description{
-        max-width: 306px;
-    }
-
-    .mobile-description{
-        max-width: 100%;
-    }
-
     .column-content p{
         max-width: 100%;
-    }
-
-    .word, .nt-word, .do-word{
-        font-size: 45px;
     }
 
     .row-2{
@@ -1064,14 +1011,18 @@ footer{
     }
 
     #about{
-        padding: 0px 40px 160px 40px;
+        padding: 0px 40px 140px 40px;
     }
 }
 
 @media (max-width: 620px) {
     .primary-menu-container{
-        display:block;
-        padding: 5px 20px 5px 10px;
+        display: block;
+        padding: 0px;
+    }
+
+    .primary-menu{
+        padding: 5px 60px 5px 10px;
     }
 
     .secondary-menu{
@@ -1108,11 +1059,11 @@ footer{
     }
 
     .title{
-        font-size: 65px;
+        font-size: 11vw;
     }
 
     .colored-text-1 {
-        font-size: 36.5px; 
+        font-size: 6.2vw;
         margin: 8px 0px 11px -1px;
     }
 
@@ -1121,7 +1072,7 @@ footer{
     }
 
     .description{
-        max-width: 480px;
+        max-width: 100%;
     }
 
     #portfolio{
@@ -1138,7 +1089,7 @@ footer{
     }
 
     .word, .nt-word, .do-word{
-        font-size: 6.5rem;
+        font-size: 17vw;
     }
 
     .title-right{
@@ -1150,7 +1101,7 @@ footer{
     }
 
     #skills{
-        padding: 0px 15px 75px 15px;
+        padding: 0px 30px 75px 30px;
     }
 
     #education{
@@ -1168,23 +1119,6 @@ footer{
 
 
 @media (max-width: 600px) {
-    .title{
-        font-size: 60px;
-    }
-
-    .colored-text-1 {
-        font-size: 34px; 
-        margin: 8px 0px 11px -1px;
-    }
-
-    .description{
-        max-width: 100%;
-    }
-
-    .word, .nt-word, .do-word{
-        font-size: 6rem;
-    }
-
     .col-7-2 {
         height: 350px;
         background: url(../media/pc2.webp);
@@ -1198,7 +1132,7 @@ footer{
     }
 
     #skills{
-        padding: 0px 15px 45px 15px;
+        padding: 0px 35px 45px 35px;
     }
 }
 
@@ -1206,30 +1140,11 @@ footer{
     .citation{
         padding: 0px 5px 0px 0px;
     }
-
-    .word, .nt-word, .do-word{
-        font-size: 5.5rem;
-    }
 }
 
 @media (max-width: 530px) {
     #about{
         padding: 0px 30px 80px 35px;
-    }
-
-    .title{
-        font-size: 54px;
-    }
-
-    .colored-text-1 {
-        font-size: 30.2px; 
-        margin: 8px 0px 11px -1px;
-    }
-}
-
-@media (max-width: 520px) {
-    .word, .nt-word, .do-word{
-        font-size: 5rem;
     }
 
     .footer{
@@ -1242,15 +1157,6 @@ footer{
         padding: 0px 30px 80px 35px;
     }
 
-    .title{
-        font-size: 50px;
-    }
-
-    .colored-text-1 {
-        font-size: 28px; 
-        margin: 8px 0px 12px -1px;
-    }
-
     .me{
         max-width: 150px;
     }
@@ -1261,12 +1167,6 @@ footer{
 
     .description{
         font-size: 18px;
-    }
-}
-
-@media (max-width: 465px) {
-    .word, .nt-word, .do-word{
-        font-size: 4.5rem;
     }
 }
 
@@ -1283,21 +1183,23 @@ footer{
         font-size: 1rem;
     }
 
-    .title{
-        font-size: 43px;
-    }
-
-    .colored-text-1 {
-        font-size: 24px; 
-        margin: 8px 0px 12px -1px;
-    }
-
     #education{
         margin: 40px 0px 0px 0px;
     }
 
     #about{
         padding: 0px 10px 60px 10px;
+    }
+
+    .primary-menu-container{
+        text-align:center;
+        align-items: center;
+        
+    }
+
+    .primary-menu{
+        justify-content: center;
+        padding: 0px 0px 0px 5px;
     }
 }
 
@@ -1353,7 +1255,7 @@ footer{
         max-width: 100%;
     }
 
-    .col-3{
+    .col-3-1, .col-3-2{
         margin: 0px 0px -13px 0px;
         min-width: 100%;
     }
@@ -1366,6 +1268,10 @@ footer{
         font-size: 0.8rem;
         letter-spacing: 1px;
     }
+
+    .word, .nt-word, .do-word{
+        font-size: 18vw;
+    }
 }
 
 @media (max-width: 380px) {
@@ -1376,10 +1282,6 @@ footer{
     #about{
         padding: 0px 10px 100px 10px;
     }
-
-    .word, .nt-word, .do-word{
-        font-size: 4rem;
-    }
 }
 
 @media (max-width: 360px) {
@@ -1389,15 +1291,13 @@ footer{
 
     .col-3{
         padding: 0px 8px;
+    }
+
+    .col-3-1, .col-3-2{
         margin: 0px 0px -15px 0px;
     }
 
-    .title{
-        font-size: 40px;
-    }
-
     .colored-text-1 {
-        font-size: 22.5px; 
         margin: 8px 0px 12px -1px;
     }
 
@@ -1415,19 +1315,6 @@ footer{
         padding: 0px 15px 80px 15px;
     }
 
-    .word, .nt-word, .do-word{
-        font-size: 3.7rem;
-    }
-
-    .title{
-        font-size: 38px;
-    }
-
-    .colored-text-1 {
-        font-size: 21px; 
-        margin: 8px 0px 12px -1px;
-    }
-
     .project-logo{
         margin: 0px 0px 0px 15px;
     }
@@ -1436,5 +1323,20 @@ footer{
 @media (max-width: 330px) {
     .project-logo{
         margin: 0px 0px 0px 8px;
+    }
+}
+
+
+/* Height */
+
+@media (max-height: 500px) {
+    .man{
+        max-width: 200px;
+    }
+}
+
+@media (max-height: 400px) {
+    .col-7-2{
+        max-width: 300px;
     }
 }
